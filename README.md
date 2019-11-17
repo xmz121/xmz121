@@ -34,6 +34,7 @@ Scanner in = new Scanner(System.in);// 定义scanner，等待输入
 			if (count == 0) {
 				System.out.println("这个字在文中没有出现");
 			} else {
+			
 				System.out.println("这个文字共出现了" + count + "次");
 			}
  异常处理部分：
@@ -44,5 +45,5 @@ Scanner in = new Scanner(System.in);// 定义scanner，等待输入
  catch (Exception e) {
 			System.err.println("发生异常" + e.toString());
 		}
- 
+
  
