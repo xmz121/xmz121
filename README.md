@@ -6,7 +6,8 @@ Scanner in = new Scanner(System.in);// 定义scanner，等待输入
 			System.out.println("请输入古诗:");
 			String gushi = in.nextLine();
 对字符中间添加符号并打印出来
-StringBuffer s = new StringBuffer(gushi);
+                        
+			StringBuffer s = new StringBuffer(gushi);  
 
 			for (int i = 7; i < s.length(); i = i + 15) {
 				s.insert(i, ",");
